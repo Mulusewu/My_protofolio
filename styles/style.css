@@ -1,39 +1,218 @@
 body{
-    background-color:rgb(76, 0, 255);
-    color: white;
+  
+    color:black;
+    background-color: white;
 }
+main{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: darkslateblue;
+}
+p{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    
+}
+header{
+    
+   padding: 5%;
+   margin: 0%;
+  width: 100%;
+  border-radius:10px;
+  background-color: blue;
+}
+/*header{
+
+    background-color: darkslateblue;
+    width:100%;
+    
+}*/
+
 nav{
-    background-color: azure;
-    margin-left: 200px;
+    background-color:darkslategrey;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 40%;
+    position:absolute;
+    top: 0%;
+    left: 50%;
+    }
+
+
+
+li{
+    list-style: disc inside;
+    display: inline;
    
-   
+    margin: 8px;
+    color: black;
 }
-#about_link{
-    position: relative;
-    top: 0;
-    left: 300px;
+/*#about_link{
+    position: absolute;
+    top: 0px;
+    left: 0px;
     font-weight: 700;
 
 
-}
+}*/
 a{
-    color:red;
+    color:skyblue;
+    font-size: 26px;
+    font-weight: bold;
 }
-#projects_link{
-    position: relative;
-    top: 0;
-    left: 400px;
+/*projects_link{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    font-weight: 700;
 
 }
 #skills_link{
     position: relative;
     top: 0;
-    left: 500px;
+    left: 200px;
+    font-weight: 700;
     
 }
 #contacts_link{
     position: relative;
     top: 0;
-    left: 600px;
+    left: 300px;
+    font-weight: 700;
+
+}*/
+#personal_photo{
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 6px;
 
 }
+main{
+    text-align: center;
+}
+p{
+    font-size: large;
+}
+
+#personal_info_secction{
+    margin: 8px 40% 8px 5%;
+    padding: 6%;
+    border-radius: 5px;
+    border-width: 3px ;
+    border-style: solid;
+    border-color:black;
+    background-color: darkslategrey;
+
+}
+course-list{
+    display: block;
+    list-style: disc inside;
+    position: relative;
+    left: 10%;
+
+}
+
+/*contact form section style*/
+#contact_form{
+    border: 3px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    color: white;
+}
+input[type="text"],input[type="email"]{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    margin: 4px;
+    position: relative;
+    left: 5%;
+    width:20%;
+    height:10%;
+   
+    border-radius: 4px;
+   
+}
+#email{
+    margin-left: 26px;
+}
+input[type="submit"]{
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    font-size: large;
+    border-radius: 4px;
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 5%;
+    color: black;
+}
+/*project and skill section*/
+#projects-and-skill{
+    border: 3px solid black ;
+    background-color:darkslategrey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#projects{
+    border: 3px solid black;
+    margin: 8px 8px 8px 3%;
+    border-radius:8px;
+    width:45%;  
+    background-color: white;
+    color: black;
+}
+#slill-and-challenges{
+    border: 3px solid black;
+    margin: 8px 3% 8px 8px;
+    border-radius:8px;
+    margin: 8px;
+    width:45%;
+    background-color: white;
+    color: black;
+
+}
+#slill-and-challenges:hover{
+    transform: scale(2);
+}
+
+/*resume section*/
+#resume{
+    background-color: darkslategrey;
+   
+    border: 3px solid black;
+    margin:10px 4% 10px 6%;
+    border-radius: 8px;
+    width: 35%;
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    color: white;
+    
+}
+#resume:hover{
+    /*transform: scale(2) translate(-100px);*/
+
+}
+
+#footer_to_contacts{
+    background-color: darkslategrey;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 10px 5% 10px 5%;
+    color: white;
+}
+

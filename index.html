@@ -10,61 +10,102 @@
     <!--Header section-->
     <header>
         <nav>
-            <a id="about_link" href="about">About</a>
-            <a id="projects_link"href=projects">projects</a>
-            <a id="skills_link"href="#skills">Skills</a>
-            <a id="contacts_link"href="#contacts">contacts</a>
+            <ul>
+                <li> <a id="about_link" href="#about_me">About</a></li>
+                <li> <a id="projects_link"href="#projects">projects</a></li>
+                <li> <a id="skills_link"href="#skills">Skills</a></li>
+                <li><a id="contacts_link"href="#footer_to_contacts">contacts</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <!--Intro  section-->
-        <section>
-            <h2>Personal info</h2>
-            <p>My Name is Mulualem Adisu</p>
-            <p>I am fourth year computer science and Engineering student @ Adama Science and Technology university,Adama </p>
-            <p>In the fast four years as computer science and engineering student @ ASTU ,<br>I have learned many computer science and some electrical engineering courses ,I listed some of them bellow</p>
-            <ul>
-                <li>database systems </li>
-                <li>Introduction programing ,Python </li>
-                <li>fundamental of programming C++ </li>
-                <li>Java programming </li>
-                <li>data structure and algorthim </li>
-                <li>computer archtecture and organization </li>
-                <li>Computer System security</li>
-                <li>fundamenta of electircal engineering  </li>
-                <li>electical circuitI </li>
-            </ul>
+        <section id="personal_info_secction">
+            <div class="personal_info_container">
+                <h2>Personal info</h2>
+                <img class="personal_info" id="personal_photo" src="IMG_1029aa.jpg" alt="the photo is to be added">
+                <div class="personal_info" id="introduction">
+                <p>My Name is Mulualem Adisu</p>
+                <p>I am fourth year computer science and Engineering student @ Adama Science and Technology university,Adama </p>
+                <p>In the fast four years as computer science and engineering student @ ASTU ,<br>I have learned many computer science and some electrical engineering courses ,I listed some of them bellow</p>
+               </div>
+               <div class="personal_info" id="list_of_courses">
+                  <ol>
+                    <li class=" course-list">database systems </li><br>
+                    <li class=" course-list">Introduction programing ,Python </li><br>
+                    <li class=" course-list">fundamental of programming C++ </li><br>
+                    <li class=" course-list">Java programming </li><br>
+                    <li class=" course-list">data structure and algorthim </li><br>
+                    <li class=" course-list">computer archtecture and organization </li><br>
+                    <li class=" course-list">Computer System security</li><br>
+                    <li class=" course-list">fundamenta of electircal engineering  </li><br>
+                    <li class=" course-list">electical circuitI </li>
+                  </ol>
+                </div>
+            </div>
         </section>
-        <img src="IMG_1029aa.jpg" alt="the photo is to be added">
-        <p> in this section i will appload cv <br> resume/cv section</p>
+        <section id="resume">
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+          <p> in this section i will appload cv <br> resume/cv section</p>
+
+        </section>
+        
+        
         <!--project section-->
-        <section>
-            <h2>projects</h2>
-            <p>add 3 - 6 sample projects Title and description</p>
-            <p>screen shots of demos</p>
-            <p>provide link for github repo of the projects</p>
-        </section>
-        <!-- skills section-->
-        <section>
+        <div id="projects-and-skill">
+          <section id="projects">
+            <div >
+                <h2>projects</h2>
+                <p>add 3 - 6 sample projects Title and description</p>
+                <p>screen shots of demos</p>
+                <p>provide link for github repo of the projects</p>
+            </div>
+          </section>
+         <!-- skills section-->
+          <section id="slill-and-challenges">
             <h2>skills and tech</h2>
             <p>skills and technology used</p>
             <p>challengs and solution</p>
-        </section>
+          </section>
+
+        </div>
+        
         <!--about section-->
-    <h2>about</h2>
+    
     <section>
-        <p>share my journey,background and why you are passionate about development</p>
-        <p>highlight my current focus learning kotlin for android dev</p>
+        <div id="about_me">
+            <h2>About Me</h2>
+            <p>share my journey,background and why you are passionate about development</p>
+            <p>highlight my current focus learning kotlin for android dev</p>
+
+        </div>
+        
     </section>
-    <!--contacts -->
-    <section id="contact">
-        <p>email</p>
-        <p>phone</p>
-        <p>link my linkedin profile</p>
-        <form>contact form optional</form>
+    <!--contact_form-->
+   
+    <section >
+        <div id="contact_form">
+            <h3>Reach me</h3>
+            <form>
+                <label for="first_name">First name:</label>
+                <input type="text"  id="first_name"><br>
+                <label for="last_name">Last name:</label>
+                <input type="text"  id="last_name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+                <label for="first_name"></label>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </div>
     </section>
-    <h2> technologies</h2>
     <section id="tech">
+        <h2> technologies</h2>
         <p>skilll and technologies i use to develop apps list of languages</p>
         <p>intermidate in html css javascript and beginner in kotlin</p>
     </section>
@@ -72,12 +113,26 @@
     <section id="testmony"> testomonial</section>
     <section id=""blog>blog</section>
     <section id="cta">call to action - hire me</section>
-    <aside>
-        
-    </aside>
 </main>
-<footer>
-    all rights reserved &copy; 2024
-</footer>
+<footer id="footer_to_contacts">
+     <!--contacts Methods-->
+    <div>
+        <h2> contacts</h2>
+        <div>
+            <h3> my contact info</h3
+            <ul>
+                <li>email: mululemaddisu@gmail.com</li><br>
+                <li> phone: 0970338424</li><br>
+                <li> <a href="">linkedin profile</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        all rights reserved &copy; 2024
+
+    </div> 
+</footer>  
 </body>
 </html>
+
+
