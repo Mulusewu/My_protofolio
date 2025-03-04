@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mulualem Adisu</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/anime.css">
 </head>
 <body>
     <!--Header section-->
@@ -19,15 +20,27 @@
         </nav>
     </header>
     <main>
+        <div><h1>Portifolio website</h1></div>
+
+        <section class="focal-point-container">
+            <div class="focal-point">
+                <div class="focal-point-text">
+                    <div class="text-container">
+                        <p>My Name is Mulualem Adisu <br>I am frontend Developer</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
         <!--Intro  section-->
         <section id="personal_info_secction">
-            <div class="personal_info_container">
-                <h2>Personal info</h2>
-                <img class="personal_info" id="personal_photo" src="IMG_1029aa.jpg" alt="the photo is to be added">
+            <div class="personal_info_container">  
+                <div  class="personal_info photo-holder" id="image"><img class="personal_info" id="personal_photo" src="IMG_1029aa.jpg" alt="the photo is to be added"></div>
                 <div class="personal_info" id="introduction">
-                <p>My Name is Mulualem Adisu</p>
-                <p>I am fourth year computer science and Engineering student @ Adama Science and Technology university,Adama </p>
-                <p>In the fast four years as computer science and engineering student @ ASTU ,<br>I have learned many computer science and some electrical engineering courses ,I listed some of them bellow</p>
+                  <p>My Name is Mulualem Adisu</p>
+                  <p>I am fourth year computer science and Engineering student @ Adama Science and Technology university,Adama </p>
+                  <p>In the fast four years as computer science and engineering student @ ASTU ,<br>I have learned many computer science and some electrical engineering courses ,I listed some of them bellow</p>
                </div>
                <div class="personal_info" id="list_of_courses">
                   <ol>
@@ -42,39 +55,35 @@
                     <li class=" course-list">electical circuitI </li>
                   </ol>
                 </div>
+                <div class="personal_info" id="resume">
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    <p> in this section i will appload cv <br> resume/cv section</p>
+                    
+                </div>
             </div>
+           
         </section>
-        <section id="resume">
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-          <p> in this section i will appload cv <br> resume/cv section</p>
-
-        </section>
-        
-        
-        <!--project section-->
-        <div id="projects-and-skill">
-          <section id="projects">
-            <div >
-                <h2>projects</h2>
-                <p>add 3 - 6 sample projects Title and description</p>
-                <p>screen shots of demos</p>
-                <p>provide link for github repo of the projects</p>
-            </div>
-          </section>
-         <!-- skills section-->
-          <section id="slill-and-challenges">
-            <h2>skills and tech</h2>
-            <p>skills and technology used</p>
-            <p>challengs and solution</p>
-          </section>
-
+       <section id="projects-and-skill" >
+         <!--project section-->
+         <div id="projects">
+            <h2>projects</h2>
+            <p>add 3 - 6 sample projects Title and description</p>
+            <p>screen shots of demos</p>
+            <p>provide link for github repo of the projects</p>
         </div>
+        <!-- skills section-->
+        <div  id="slill-and-challenges">
+             <h2>skills and tech</h2>
+             <p>skills and technology used</p>
+             <p>challengs and solution</p>
+        </div>
+       </section>
+
+        
         
         <!--about section-->
     
@@ -89,30 +98,42 @@
     </section>
     <!--contact_form-->
    
-    <section >
+    <section class="contact-form-section" >
         <div id="contact_form">
             <h3>Reach me</h3>
             <form>
-                <label for="first_name">First name:</label>
-                <input type="text"  id="first_name"><br>
-                <label for="last_name">Last name:</label>
-                <input type="text"  id="last_name"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email"><br>
-                <label for="first_name"></label>
+              
+                <input type="text"  id="first_name" placeholder="First name"><br>
+                
+                <input type="text"  id="last_name" placeholder="last name"><br>
+                
+                <input type="email" id="email" placeholder=" email"><br>
+               
                 <input type="submit" value="submit" id="submit">
             </form>
         </div>
     </section>
-    <section id="tech">
-        <h2> technologies</h2>
-        <p>skilll and technologies i use to develop apps list of languages</p>
-        <p>intermidate in html css javascript and beginner in kotlin</p>
+    <section class="tech-testmon-section" >
+        <div id="tech">
+            <h2> technologies</h2>
+            <p>skilll and technologies i use to develop apps list of languages</p>
+            <p>intermidate in html css javascript and beginner in kotlin</p>
+
+        </div>
+        <div id="testmony">
+            <h2> testimonial from other clients</h2>
+
+        </div>
     </section>
-    <h2> testimonial from other clients</h2>
-    <section id="testmony"> testomonial</section>
+    <section > testomonial</section>
     <section id=""blog>blog</section>
     <section id="cta">call to action - hire me</section>
+
+    <section>
+        <div id="largebox">
+
+        </div>
+    </section>
 </main>
 <footer id="footer_to_contacts">
      <!--contacts Methods-->
@@ -123,7 +144,7 @@
             <ul>
                 <li>email: mululemaddisu@gmail.com</li><br>
                 <li> phone: 0970338424</li><br>
-                <li> <a href="">linkedin profile</a></li>
+                <li> <a href="#">linkedin profile</a></li>
             </ul>
         </div>
     </div>
